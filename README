@@ -9,3 +9,6 @@ run redis-server
 export GOPATH=`pwd`
 nohup rqworker &
 go run gorq.go
+
+
+PS: in t-settings change r1 to use db 0.
