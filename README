@@ -1,4 +1,10 @@
 pip install https://github.com/vireshas/rq/archive/0.5.0.tar.gz
+go get github.com/goibibo/t-coredb
+go get github.com/goibibo/t-settings
+go get github.com/goibibo/gorq
+go get github.com/goibibo/gorq-rcvr
+go get github.com/goibibo/mantle
+
 run redis-server
 export GOPATH=`pwd`
 nohup rqworker &
