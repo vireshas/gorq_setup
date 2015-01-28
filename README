@@ -1,0 +1,5 @@
+pip install https://github.com/vireshas/rq/archive/0.5.0.tar.gz
+run redis-server
+export GOPATH=`pwd`
+nohup rqworker &
+go run gorq.go
