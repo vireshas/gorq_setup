@@ -10,7 +10,4 @@ export GOPATH=`pwd`
 nohup rqworker &
 go run gorq.go
 
-also check if ./bin/gorq_setup works.
-
-export $GOBIN=$GOPATH/bin
 PS: in src/github.com/goibibo/t-settings/config.json change r1 to use db 0(worker is listening at 0).
