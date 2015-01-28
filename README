@@ -10,5 +10,7 @@ export GOPATH=`pwd`
 nohup rqworker &
 go run gorq.go
 
+also check if ./bin/gorq_setup works.
 
+export $GOBIN=$GOPATH/bin
 PS: in t-settings change r1 to use db 0.
